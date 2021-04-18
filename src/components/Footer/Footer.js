@@ -17,7 +17,7 @@ const Footer = ({match}) => {
    const {pageName} = match.params
     return (
         <footer className='footer'>
-          <hr />
+      
             <nav className="">
                 <Link to='/' className="menu_item">
                     <HomeIcon  className={`${match.path === "/" ? "active" : ""}`}/>
