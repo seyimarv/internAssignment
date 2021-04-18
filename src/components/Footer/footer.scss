@@ -1,0 +1,36 @@
+footer {
+  
+   
+ 
+}
+
+
+nav {
+   
+ display: inline-block;
+ justify-content: space-between;
+
+    .menu_item {
+        display: inline-block;
+        width: 20%;
+        padding: 10px;
+        text-align: center;
+
+        .MuiSvgIcon-root {
+            color: rgba(221, 32, 32, 0.3);
+            font-size: 40px;
+            text-align: center;
+        }
+        
+        p {
+            color: rgba(221, 32, 32, 0.3);
+           font-weight: 600;
+        }
+        .active {
+           color: red !important;
+           
+                
+        }
+       
+    }
+}
