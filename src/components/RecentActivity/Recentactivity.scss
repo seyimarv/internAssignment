@@ -7,29 +7,25 @@
         padding: 10px 10px;
 
     }
+    div {
+        background: rgba(188, 196, 188, 0.3);
+        border: 1px solid rgb(114, 111, 111);
+        margin: 0px 4px;
 
+    }
     .recent_activity_subsection {
         display: flex;
         justify-content: space-between;
-        padding: 5px 20px;
-        border-bottom: 1px solid rgb(202, 198, 198);
+        padding: 0px 20px;
 
 
         p {
-            padding: 10px 10px;
-            font-size: 17px
+            padding: 5px 10px;
+            font-size: 18px;
+            font-weight: 700;
         }
-        img {
-            width: 45px;
-
-        }
+     
 
     }
-    div {
-        background: rgba(188, 196, 188, 0.8);
-        padding: 15px 0px;
-        margin-top: 5px;
-        // border-bottom: 1px solid rgb(185, 9, 9);
-
-    }
+   
 }

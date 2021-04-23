@@ -13,53 +13,17 @@
     -webkit-box-shadow: 3px 3px 5px 6px #ccc;  
     -moz-box-shadow:    3px 3px 5px 6px #ccc;  
     box-shadow:         1px 1px 2px 3px #ccc;
-    background:#ff0789;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
+    background: whitesmoke;
+    border-radius: 15px;
     margin: 3px;
     
 
-    .add_border {
-        border-right: 1px solid white;
+    p {
+        font-weight: 700;
+        font-size: 18px;
+        padding: 3px 0px;
     }
-
-    .sub_section_1 {
-        display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 5px;
-
-    #red_section {
-        color: red;
-    }
-
-        h5 {
-            display: block;
-            border-radius: 50%;
-            background-color: white;
-            padding: 4px 0px;
-            text-align: center;
-            width: 50px;
-            // width: 40px;
-            // height: 40px;
-            font-size: 15px !important;
-            padding: 10px 8px;
-            color: blue;
-            font-weight: 600;
-        }
-        h4 {
-            color: white;
-            font-weight: 600;
-        }
-        p {
-            color: white;
-            font-size: 13px;
-            font-weight: 700;
-        }
-    }
+    
 }
 #section_2 {
     .select_currency_box {
@@ -73,14 +37,10 @@
             border: 1px solid rgb(202, 198, 198);
             background: rgb(192, 191, 191);
             width: 25%;
-            padding: 2px 18px;
+            padding: 4px 5px;
             font-weight: 600;
             text-align: center;
-
-            .MuiSvgIcon-root  {
-                color: white;
-                font-size:25px;
-            }
+            font-size: 20px;
         }
         #currency_value {
             border-top-right-radius: 5px;

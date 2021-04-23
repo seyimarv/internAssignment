@@ -2,15 +2,14 @@ import React from 'react'
 import './header.scss'
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
-import LocalHospitalOutlinedIcon from '@material-ui/icons/LocalHospitalOutlined';
+
 
 
 const Header = () => {
     return (
         <header>
             <div id="logo">
-                <LocalHospitalOutlinedIcon />
-                <span>ribbon</span>
+                <span>LOGO</span>
             </div>
             <nav>
                 <ul>
